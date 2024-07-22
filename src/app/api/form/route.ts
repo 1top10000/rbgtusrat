@@ -1,11 +1,3 @@
-/*
-var express = require('express')
-var cors = require('cors')
-var app = express()
- 
-app.use(cors())
-*/
-import axios from 'axios';
 export async function POST(req: Request) {
     const body = await req.json();
     var o;
